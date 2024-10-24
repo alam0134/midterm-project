@@ -87,6 +87,19 @@ body {
     font-weight: bolder;
 }
 
+.header-text > p:nth-child(1) {
+    word-spacing: 5px ;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, var(--primary-color),  #7bb9dd ); /* Define the gradient */
+    background-clip: text; /* Clipping the background to the text */
+    color: transparent; /* Makes the text itself transparent so the background shows through */
+    animation: ;
+}
+
+
+
 
 
 
