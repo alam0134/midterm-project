@@ -11,7 +11,10 @@ body {
 }
 
 .container {
+    width: 80%;
+    max-width: 1200px;
     margin: 0 auto;
+    /* width 80% means the content will take 80 percent of display with at any device */
 }
 
 .header-container, .navigation nav {
@@ -29,8 +32,8 @@ body {
 .header-container {
     display: flex;
     justify-content: space-between;
-    margin: 20px 0px;
-    align-items: center ;
+    margin: 40px 0px;
+    align-items: center;
 }
 
 .logo a {
@@ -39,6 +42,51 @@ body {
     font-size: 34px;
     font-family: "Playfair Display", serif;
 }
+
+.navigation nav {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation nav li a {
+    margin-left: 40px;
+    color: white;
+}
+
+.navigation nav li:nth-child(3) a {
+    background-color: var(--primary-color);
+    padding: 5px 20px;
+    border-radius: 20px ;
+}
+/* header finished */
+
+.main-image img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow:  20px 20px 50px rgba(255, 255, 255, 0.089), -20px -20px 50px rgba(255, 255, 255, 0.089);
+}
+
+.main-image {
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;   
+}
+
+.header-text p {
+    font-size: 14px;
+    margin: 20px 0px;
+}
+
+.header-text h1 {
+    font-size: 34px;
+    font-weight: bolder;
+}
+
 
 
 
