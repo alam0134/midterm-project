@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The System</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <!-- order is important, so that my reset file will be applied first. Before than my styling css file. -->
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
@@ -11,14 +14,74 @@
 
 </head>
 <body>
+   <div class="container">
     <header>
-        <nav>
-            <div class="header-container">
-                <div class="logo"></div>
-                <div class="navigation"></div>
+        <div class="header-container">
+            <div class="logo">
+                <a href="#">THE SYSTEM</a>
             </div>
-        </nav>
+            <div class="navigation">
+                <nav>
+                    <li><a href="#">Planets</a></li>
+                    <li><a href="#">Interseller</a></li>
+                    <li><a href="#">Contact</a></li>
+                </nav>
+            </div>
+        </div>      
     </header>
+    <main>
+        <section>
+            <div class="heading-banner">
+                <div class="image">
+                    <img src="images/milky-way.jpg" alt="picture of milky way">
+                </div>
+                <div>
+                    <p>THE SYSTEM MAGAZINE</p>
+                    <h1>Welcome to the <p>Solar System</p></h1>
+                    <p>Take atour around the coolest steller system around</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Meet the Locals</h2>
+            <div class="locals-container">
+                <div class="sun-card">
+                    <img src="images/sun.jpg" alt="picture of a red burning sun">
+                    <h3>The Sun</h3>
+                    <button>Learn More</button>
+                </div>
+                <div class="mercury-card">
+                    <img src="images/mercury.jpg" alt="Picture of mercury">
+                    <h3>Mercury</h3>
+                    <button>Learn More</button>
+                </div>
+                <div class="venus-card">
+                    <img src="images/venus.jpg" alt="Picture of venus">
+                    <h3>Venus</h3>
+                    <button>Learn More</button>
+                </div>
+                <div class="earth-card">
+                    <img src="images/earth.jpg" alt="Picture of earth">
+                    <h3>Earth</h3>
+                    <button>Learn More</button>
+                </div>
+                <div class="moon-card">
+                    <img src="images/moon.jpg" alt="Picture of moon">
+                    <h3>The Moon</h3>
+                    <button>Learn More</button>
+                </div>
+                <div class="mars-card">
+                    <img src="images/mars.jpg" alt="Picture of mars">
+                    <h3>Mars</h3>
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;2024-The System</p>
+    </footer>
+   </div>
     
 </body>
 </html>

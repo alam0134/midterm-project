@@ -3,3 +3,42 @@
     --button-color: #800080;
     --background-color: #030201;
 }
+
+body {
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    background-color: var(--background-color);
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header-container, .navigation nav {
+    display: flex;
+}
+
+.navigation nav li  {
+    list-style: none;
+}
+
+.navigation nav li a {
+    text-decoration: none;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    align-items: center ;
+}
+
+.logo a {
+    color: white ;
+    text-decoration: none;
+    font-size: 34px;
+    font-family: "Playfair Display", serif;
+}
+
+
+
