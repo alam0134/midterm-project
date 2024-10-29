@@ -178,7 +178,7 @@ body {
 }
 
 .card {
-    /* width: 1fr; */
+    
 }
 
 .card img {
@@ -189,16 +189,22 @@ body {
     font-size: 24px;
     font-weight:bold;
     margin: 30px 0px;
+    display: flex;
+    justify-content: center;
 }
 .card button {
     background-color: var(--button-color);
     padding: 5px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+    margin-left: 20px;
     border-radius: 20px;
     font-size: 24px;
     color: white;
     border: 1px;
     cursor: pointer;  
+
+    /* display: flex;
+    justify-content: center; */
 }
 
 .card button:hover {
@@ -214,4 +220,14 @@ body {
 }
 
 
+footer p {
+    font-size: 22px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
 
+hr {
+    color: black;
+}
