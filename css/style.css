@@ -30,6 +30,10 @@
     outline: red 5px solid;
 }
 
+.card a {
+    text-decoration: none;
+}
+
 body {
     color: rgb(255, 255, 255);
     font-family: "Lato", sans-serif;
@@ -61,17 +65,6 @@ body {
     background: var(--primary-color);
     z-index: -1;
 }
-
-/* .logo div {
-    height: 14px;
-}
-
-.logo-strip {
-    background-color: var(--primary-color);
-    line-height: 0;
-    height: 25px;
-    padding-bottom: 0px;
-} */
 
 .navigation ul li  {
     list-style: none;
@@ -123,7 +116,6 @@ body {
 }
 
 .navigation ul li:hover {
-    /* background-color: var(--button-hover); */
     transform: scale(1.2);
     border-radius: 20px;
     transition: all 0.4s;
@@ -136,12 +128,10 @@ body {
 .navigation ul li a:active {
     outline: 5px solid red;
 }
+
 .navigation ul li a:focus{
     outline: 5px solid red;
 }
-
-
-
 
 /* header finished */
 
@@ -279,6 +269,10 @@ body {
     outline: 5px solid red;
 }
 .card button:focus{
+    outline: 5px solid red;
+}
+
+.card a {
     outline: 5px solid red;
 }
 
