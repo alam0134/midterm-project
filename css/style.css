@@ -5,6 +5,31 @@
     --button-hover: #51d6cd;
 }
 
+.skip-nav-link {
+    position: absolute;
+    top: -100px; /* Keeps it off-screen initially */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0px 0px 20px 20px;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    opacity: 0; /* Hidden initially */
+    z-index: 100; /* Ensures it’s above other content */
+}
+
+.skip-nav-link:focus {
+    top: 0px; /* Adjust this based on how high i want it centered */
+    opacity: 1; /* Make it visible */
+    color: black;
+    background-color: white;
+    outline: red 5px solid;
+}
+
 .skip-link {
     position: absolute;
     top: -100px; /* Keeps it off-screen initially */
@@ -28,10 +53,6 @@
     color: black;
     background-color: white;
     outline: red 5px solid;
-}
-
-.card a {
-    text-decoration: none;
 }
 
 body {
@@ -269,10 +290,6 @@ body {
     outline: 5px solid red;
 }
 .card button:focus{
-    outline: 5px solid red;
-}
-
-.card a {
     outline: 5px solid red;
 }
 
